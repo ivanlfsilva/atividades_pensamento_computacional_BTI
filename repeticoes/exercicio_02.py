@@ -8,4 +8,5 @@ while gastos_do_dia != 0:
         tot = gastos_do_dia
 
 
-print("O seu maior gasto hoje foi R$ ", round(tot, 2))
+text = "O seu maior gasto do dia foi R$ {:.2f}"
+print(text.format(tot))
